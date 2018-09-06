@@ -1,0 +1,15 @@
+.about-us-container{
+  display: flex;
+  justify-content: space-between;
+}
+.about-us-container img{
+  padding: 25px;
+}
+.about-us-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+.about-us-text p{
+
+}
