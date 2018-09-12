@@ -1,8 +1,10 @@
 /* Global */
 h1 {
+  font-family: "IBM Plex Serif","Times New Roman", Times, serif;
   text-align: center;
 }
 body {
+  font-family: "Merriweather","Times New Roman", Times, serif;
   margin: 0px;
 }
 
@@ -17,11 +19,17 @@ body {
   float: left;
 }
 .header-bar-links {
-  width: 25%;
+  width: 30%;
   padding: 50px;
 }
 .header-bar-links a {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Alice", "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  font-weight: bold;
+
+  text-decoration: none;
+  padding: 5px;
+  color: #4A1491;
 }
 .header-bar-links ul {
   display: flex;
@@ -33,7 +41,8 @@ body {
   padding: 0;
 }
 .header-bar-links a:hover {
-  background-color: red;
+  border-radius: 5px;
+  background-color: #e6e6e6;
 }
 
 /* Footer */
@@ -41,6 +50,8 @@ body {
   border-top: 2px solid #a9a9a9;
   display: flex;
   justify-content: center;
+  padding-top: 15px;
+  height: 50px;
 }
 .footer-links{
   width: 25%;

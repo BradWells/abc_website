@@ -1,0 +1,10 @@
+.large-greeting {
+  height: 575px;
+  border-bottom: 6px solid black;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/notebooks_on_grass_zoomed_out_resize_3.jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  background-position: top center; 
+}
