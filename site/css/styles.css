@@ -73,3 +73,10 @@ body {
 .footer a:hover{
   background-color: red;
 }
+
+.info-banner {
+  padding: 20px;
+  background-color: #1475ad;
+  color: white;
+  margin-bottom: 15px;
+}
